@@ -105,6 +105,16 @@ class HistoryWindowController: NSWindowController {
         panel.standardWindowButton(.miniaturizeButton)?.isHidden = true
         panel.standardWindowButton(.zoomButton)?.isHidden = true
         
+        panel.appearance = SettingsManager.shared.appTheme.nsAppearance
+        
+        NotificationCenter.default.addObserver(
+            forName: .bufferThemeChanged,
+            object: nil,
+            queue: .main
+        ) { [weak panel] _ in
+            panel?.appearance = SettingsManager.shared.appTheme.nsAppearance
+        }
+
         // Notify content view when window becomes key so it can reset state
         NotificationCenter.default.addObserver(
             forName: NSWindow.didBecomeKeyNotification,
@@ -212,6 +222,7 @@ extension Notification.Name {
     static let bufferUpdateAvailable = Notification.Name("bufferUpdateAvailable")
     static let bufferOpenHistoryWindow = Notification.Name("bufferOpenHistoryWindow")
     static let bufferOpenSettingsWindow = Notification.Name("bufferOpenSettingsWindow")
+    static let bufferThemeChanged = Notification.Name("bufferThemeChanged")
 }
 
 /// Pure helper for contiguous selection range calculations
