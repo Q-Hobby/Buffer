@@ -23,7 +23,7 @@
 <img src="https://img.shields.io/github/downloads/samirpatil2000/Buffer/total?style=flat-square&color=blue&label=downloads" alt="Downloads">
 </p>
 
-<a href="https://www.trymacapps.com" target="_blank" rel="noopener">
+<a href="https://www.trymacapps.com" target="_blank">
   <img
     src="https://www.trymacapps.com/badge.png"
     alt="Featured on TryMacApps"
