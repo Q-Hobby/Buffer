@@ -17,12 +17,21 @@
 <a href="https://www.producthunt.com/products/buffer-3">
   <img src="https://img.shields.io/badge/Product%20Hunt-Launching%20Oct%205-da552f?style=for-the-badge&logo=producthunt&logoColor=white" alt="Product Hunt">
 </a>
-<a href="https://deepwiki.com/samirpatil2000/Buffer"><img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki"></a>
 <br><br>
 <img src="https://img.shields.io/github/stars/samirpatil2000/Buffer?style=flat-square&color=orange&label=stars" alt="Stars">
 &nbsp;
 <img src="https://img.shields.io/github/downloads/samirpatil2000/Buffer/total?style=flat-square&color=blue&label=downloads" alt="Downloads">
 </p>
+
+<a href="https://www.trymacapps.com" target="_blank" rel="noopener">
+  <img
+    src="https://www.trymacapps.com/badge.png"
+    alt="Featured on TryMacApps"
+    width="200"
+    height="67"
+  />
+</a>
+
 
 ---
 
